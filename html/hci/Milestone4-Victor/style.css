@@ -227,49 +227,6 @@ footer address{
     margin: 1em 0;
 }
 
-/*Navigation bar*/
-
-#navigation, footer{
-	background-color: rgba(130,130,130,0.9);
-    width: 100%;
-    
-}
-
-#navigation {
-    top: 0px;
-    z-index:9999;
-    position: fixed;
-
-}
-
-
-#navigation ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	width: 100%;
-	text-align: center;
-}
-
-#navigation ul li {
-	display: inline-block;
-	width: 110px;
-	min-width: 100px;
-	text-align: center;
-}
-
-#navigation ul li a {
-	display: block;
-	padding: 9px;
-	text-decoration: none;
-	color: #FFF;
-}
-
-#navigation ul li a:hover {
-	background-color: rgb(230,230,230);
-	color: black;
-}
-
 /*HOMEPAGE PAGE*/
 #grid{
 	width: 100%;
@@ -366,4 +323,57 @@ footer address{
 #timeline-embed div.title{
 	line-height: 13px;
 	font-size: 13px;
+}
+
+/*Navigation bar*/
+
+#navigation, footer{
+	background-color: rgba(130,130,130,0.9);
+    width: 100%;
+    
+}
+
+#navigation {
+    top: 0px;
+    z-index:9999;
+    position: fixed;
+
+}
+
+
+#navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+
+#navigation ul li {
+	opacity: 1;
+	display: inline-block;
+	width: 110px;
+	min-width: 100px;
+	text-align: center;
+}
+
+#navigation ul li a {
+	display: block;
+	padding: 9px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#navigation ul li a:hover {
+	background-color: rgb(230,230,230);
+	color: black;
+}
+
+/* Added by Victor*/
+
+#navigation ul li:hover {
+	-webkit-transform: rotateY(360deg);
+	margin-right: auto;
+	margin-right: auto;
+	transition-duration: 1.3s;
 }
