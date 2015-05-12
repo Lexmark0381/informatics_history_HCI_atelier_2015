@@ -50,6 +50,7 @@ For internal link use <a> tag normally, if your link has a reference to a page i
 
 html, body{
  /*font-family: opensans;*/
+
  font-family: 'Open Sans', sans-serif;
  font-size: 12pt;
  margin:0;
@@ -422,12 +423,38 @@ footer address{
 
 
 .externalLinks{
+<<<<<<< Updated upstream
+=======
+
+	display: flex;
+	margin-top: 100px;
+>>>>>>> Stashed changes
 	font-style: italic;
 	font-size: 10pt;
+	
     
 }
+@media all and (max-width: 800px){
+	.externalLinks{
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 11pt;
+	
+	.externalLinks a{
+	color: #101010;
+    text-decoration: none;
+    margin-top: 100px;
+	font-weight: normal;
+	font-size: 30pt;
+}
+    
+	
+	
+
+
 
 .externalLinks a{
+
 	color: #101010;
     text-decoration: none;
     
