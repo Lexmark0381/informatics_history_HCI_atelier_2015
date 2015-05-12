@@ -1,0 +1,189 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+    background: lightgrey;
+}
+
+#wrapper {
+	display: flex;
+	flex: auto;
+	flex-flow: column;
+	flex-basis: 100%;
+	min-height: 100%;
+    background: lightgrey;
+}
+
+#nav{
+	display: flex;
+	flex-flow: row wrap;
+    background: grey;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+#nav > a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: .5em;
+    flex-grow: 1;
+}
+
+#nav a:hover {
+    background: lightgrey;
+    color: black;
+}
+
+#container {
+	display: flex;
+    background: lightgrey;
+	flex-flow: row wrap;
+    flex: 1 1 auto;
+}
+
+#footer {
+	display: flex;
+    background: grey;
+    justify-content: flex-start;
+    
+}
+
+#footer > address {
+    margin: 0.7em;
+    color: white;
+    
+}
+
+#content{
+	display: flex;
+    background: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2em;
+    flex: 1 1 auto;
+	flex-flow: column;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
+}
+
+#content > p{
+}
+
+/*IMAGE_PART*/
+
+#content > #imgBox{
+
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+
+}
+
+
+.img_text{
+    position: absolute;
+    z-index: 1;
+    width: 2px;
+    font-size: 35pt;
+    word-wrap: break-word;
+    line-height: 30pt;
+    margin-left: 40%;
+    opacity: 1;
+}
+
+.img {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    flex: 1 1 auto;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    position: relative;
+    z-index:0;
+}
+
+#Hardware{
+
+     background-image: url("hardware.jpg");
+
+}
+
+#Software {
+
+    background-image: url("software.jpg");
+}
+
+#Internet{
+
+    background-image: url("internet.jpg") ;
+
+}
+
+
+#Games{
+
+    background-image: url("games.jpg") ;
+
+}
+
+#HCI {
+
+    background-image: url("hci.jpg");
+
+}
+
+
+@media all and (max-width: 600px){
+
+    #content > #imgBox {
+        flex-direction: column;
+    }
+    .img{
+        height: 200px;
+        flex-basis: 100px;
+
+    }
+    .img_text{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 5%;
+
+    }
+}
+
+#Hardware:hover{
+    opacity: 0.5;
+}
+
+#Software:hover{
+
+
+    opacity: 0.5;
+
+}
+
+#Games:hover{
+
+    opacity: 0.5;
+
+
+}
+
+#Internet:hover{
+
+    opacity: 0.5;
+
+}
+
+#HCI:hover{
+
+    opacity: 0.5;
+
+}
