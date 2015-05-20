@@ -395,11 +395,36 @@ footer address{
     	margin-right: 27%;
     	margin-left: 25%;
     }
-    /*
-    p, ul {
-    	display: none;
+    
+    #content {
+    	height: auto;
     }
-    */
+
+    #navigation{
+    	height: 200px;
+    }
+    
+    #navigation ul{
+    	display: flex;
+    	height: 200px;
+    	flex-wrap: wrap;
+    }
+
+    #navigation ul li{
+    	height: 100px;
+    	width: auto;
+    	flex-grow: 1;
+    }
+
+    #navigation li a{
+    	padding: 0;
+    	margin: 0;
+    	border: none;
+    	height: auto;
+    	width: auto;
+    	font-size: 50px;    
+    }
+    
 }
 
 /* End Victor */
