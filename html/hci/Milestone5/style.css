@@ -430,14 +430,102 @@ footer address{
     }
     
 }
-
+	   
 /* End Victor */
 
-/* Start Nicolas */
+/* Start Nicolas Ipads */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 768px) and (orientation: portrait) 
+	{
+	   #content h1{
+	   font-size: 25pt;
+	   text-align: center;
+	   }
+	   #content{
+	   font-size: 18pt;
+	   }
+	   #navigation {
+       font-size: 150%;
+       }
+       #navigation ul li {
+	   width: 120px;
+       }
+       .captionedImg {
+       width: 80%;
+       
+       }
+       .imgRightWithCaption {
+       margin-bottom: 0px;
+       margin-top: 0px;
+       margin-left: 10px;
+       top: 0px;
+       }
+       .caption{
+       width: 75%;       
+	   }
+       footer{
+       font-size: 18pt;
+       width: 100%;
+	   height: 50px;
+	   bottom: 0px;
+	   text-indent: 80px;
+       }
+       footer address{
+       margin-top: 5px;
+       margin-bottom: 0px;
+       }
+       
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (orientation: landscape) 
+	{
+	   #content h1{
+	   font-size: 25pt;
+	   text-align: center;
+	   }
+	   #content{
+	   font-size: 17pt;
+	   }
+	   #navigation {
+       font-size: 150%;
+       }
+       #navigation ul li {
+	   width: 120px;
+       }
+       .captionedImg {
+       width: 80%;
+       
+       }
+       .imgRightWithCaption {
+       margin-bottom: 0px;
+       margin-top: 60px;
+       margin-left: 50px;
+       top: 0px;
+       }
+       .caption{
+       width: 75%;       
+	   }
+       footer{
+       font-size: 18pt;
+       width: 100%;
+	   height: 50px;
+	   bottom: 0px;
+	   text-indent: 80px;
+       }
+       footer address{
+       margin-top: 5px;
+       margin-bottom: 0px;
+       }     
+
+       
+
+
+	   
+	   
+	   
+       
+	
 /* End Nicolas */
 
-/* Start Sami */
-/* End Sami */
 
 /* Start Gabriele */
 @media screen 
