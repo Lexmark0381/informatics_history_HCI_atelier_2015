@@ -436,4 +436,61 @@ footer address{
 /* End Sami */
 
 /* Start Gabriele */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)     /* for Samsung S4 devices */
+   {
+
+  	body{
+  		
+  		font-size: 8vw;
+
+  		
+  	}
+
+  	h1{
+  		font-size: 13vw;
+  		text-align: center;
+  	}
+
+  	#navigation{
+  		position: static;
+  		width: 202vw;
+  		font-size: 7vw;
+  		
+
+
+  	}
+
+  	#navigation li{
+  		margin-left: 2px;
+  		margin-right: 2px;
+  	}
+
+  	#contentContainer{
+  		margin-top: 1px;
+  		padding-bottom: 75px;
+  		
+  	}
+
+  	footer{
+  		width: 202vw;
+  		height: 20vw;
+  	}
+
+  	footer address{
+  		margin-bottom: 0px;
+  		margin-top: 10px;
+  		margin-left: 3px;
+  	}
+  
+  	#ridim{
+  		width: 200px;
+  	}
+
+  	
+
+}
+
+
 /* End Gabriele */
