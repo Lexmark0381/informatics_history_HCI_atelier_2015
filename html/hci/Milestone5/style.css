@@ -368,7 +368,7 @@ footer address{
 	font-size: 13px;
 }
 
-/* Start Victor */
+/* Start Victor - iPhone 6 */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 375px) 
     and (-webkit-device-pixel-ratio: 2) { 
