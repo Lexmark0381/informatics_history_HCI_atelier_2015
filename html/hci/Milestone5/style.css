@@ -367,3 +367,26 @@ footer address{
 	line-height: 13px;
 	font-size: 13px;
 }
+
+/* Start Victor */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+
+    .imgRightWithCaption {
+    	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+    }
+}
+
+/* End Victor */
+
+/* Start Nicolas */
+/* End Nicolas */
+
+/* Start Sami */
+/* End Sami */
+
+/* Start Gabriele */
+/* End Gabriele */
