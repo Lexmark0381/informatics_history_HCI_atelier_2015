@@ -424,6 +424,10 @@ footer address{
     	width: auto;
     	font-size: 50px;    
     }
+
+    #contentContainer {
+    	margin-top: 260px;
+    }
     
 }
 
