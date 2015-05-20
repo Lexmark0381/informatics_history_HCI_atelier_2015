@@ -373,11 +373,33 @@ footer address{
 @media only screen and (min-device-width: 375px) and (max-device-width: 375px) 
     and (-webkit-device-pixel-ratio: 2) { 
 
+    h1 {
+    	
+    }
+
     .imgRightWithCaption {
     	display: block;
-    	margin-right: auto;
-    	margin-left: auto;
+    	margin-right: 0;
+    	margin-left: 0;
+ 		width: 100%;
     }
+
+    .imgRightWithCaption img{
+    	width: 50%;
+    	margin-right: 25%;
+    	margin-left: 25%;
+    }
+
+    .caption {
+    	width: 45%;
+    	margin-right: 27%;
+    	margin-left: 25%;
+    }
+    /*
+    p, ul {
+    	display: none;
+    }
+    */
 }
 
 /* End Victor */
