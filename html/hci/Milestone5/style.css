@@ -547,7 +547,7 @@ footer address{
 
   	#navigation{
   		position: static;
-  		width: 202vw;
+  		
   		font-size: 7vw;
   		
 
@@ -561,12 +561,16 @@ footer address{
 
   	#contentContainer{
   		margin-top: 1px;
-  		padding-bottom: 75px;
+  		padding-bottom: 30px;
   		
   	}
 
+    #navigation, footer{
+      width: 104%;
+    }
+
   	footer{
-  		width: 202vw;
+  		
   		height: 20vw;
   	}
 
@@ -574,6 +578,7 @@ footer address{
   		margin-bottom: 0px;
   		margin-top: 10px;
   		margin-left: 3px;
+
   	}
   
   	#ridim{
